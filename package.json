@@ -1,0 +1,22 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "nnn",
+  "main": "main.js",
+  "scripts": {
+    "test": "go",
+    "compile:sass": "node-sass sass/main.scss --output css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "-"
+  },
+  "keywords": [
+    "ws"
+  ],
+  "author": "zoomka",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Poiret+One&display=swap" rel="stylesheet">
+    <title>---</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header_content">
+            <a href="index.html"><div class="logo">
+                food zone
+            </div></a>
+            <div class="right_container">
+                <a href="#"><div class="nav">
+                    Рацион
+                </div></a>
+                <a href="#work"><div class="nav">
+                    Как мы работаем?
+                </div></a>
+                <a href="#find"><div class="nav">
+                    Подобрать рацион
+                </div></a>
+                <a href="#"><div class="basket_container">
+                    <img src="images/корзина.png" alt="sss" class="basket">
+                </div></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="health_container row">
+            <div class="left_container col-sm-12 col-md-6 col-lg-6">
+                <div class="title">
+                    ЗДОРОВОЕ ПИТАНИЕ
+                </div>
+                <div class="text">
+                    Доставка полезной еды на целый день
+                </div>
+                
+                <div class="find_food">
+                    <button class="find_btn">подобрать рацион</button>
+                </div>
+            </div>
+            <div class="image_container col-sm-12 col-md-6 col-lg-6">
+                <div class="round_white">
+                    <img src="images/Ellipse 4.png" alt="..." class="ellipse">
+                    <img src="images/Ellipse 2.png" alt="Ooopss.." class="food">
+                </div>
+            </div>
+        </div>
+        <div class="find_block">
+            <div class="find_title" id="find">Подбери рацион <br> <div class="vector"></div> на свой вкус</div>
+            <div class="card_container row">
+                <div class="card col-sm-12 col-md-6 col-lg-4"><a href="#">
+                    <div class="card_image_1"></div>
+                    <div class="card_title">Life</div>
+                    <div class="text_container">
+                        <div class="card_text">Рационы премиального питания для спорта и повседневной жизни</div>
+                        <div class="num_container">
+                            <div class="num">5</div>
+                            <div class="variants">вариантов</div>
+                        </div>
+                    </div></a>
+                </div>
+                <div class="card col-sm-12 col-md-6 col-lg-4"><a href="#">
+                    <div class="card_image_2"></div>
+                    <div class="card_title">Health</div>
+                    <div class="text_container">
+                        <div class="card_text">Рационы здорового питания для поддержания физической формы</div>
+                        <div class="num_container">
+                            <div class="num">7</div>
+                            <div class="variants">вариантов</div>
+                        </div>
+                    </div></a>
+                </div>
+                <div class="card col-sm-12 col-md-6 col-lg-4"><a href="#">
+                    <div class="card_image_3"></div>
+                    <div class="card_title">Personal</div>
+                    <div class="text_container">
+                        <div class="card_text">Ваше персональное меню, составленное отталкиваясь от ваших предпочтений</div>
+                        <div class="num_container">
+                            <div class="num">8</div>
+                            <div class="variants">вариантов</div>
+                        </div>
+                    </div></a>
+                </div>
+            </div>
+        </div>
+        <div class="work_container">
+            <div class="work_title" id="work">
+                Как мы<br> <div class="vec"></div> работаем?
+            </div>
+            <div class="car"></div>
+            <div class="road"></div>
+            <div class="way_container">
+                <div class="step">
+                    <div class="dot"></div>
+                    <div class="step_title">Выберите ваш рацион</div>
+                    <div class="description">Мы составляем меню каждую неделю, считаем БЖУ, выбираем только свежие продукты.</div>
+                </div>
+                <div class="step">
+                    <div class="dot"></div>
+                    <div class="step_title">Дождитесь курьера</div>
+                    <div class="description">Регулярно наш курьер привозит Вам пакет с набором блюд на весь день.</div>
+                </div>
+                <div class="step">
+                    <div class="dot"></div>
+                    <div class="step_title">Ура! Вы питаетесь правильно!</div>
+                    <div class="description">Без лишних усилий, потери времени на кухне и в магазине за покупкой продуктов.</div>
+                </div>
+            </div>
+        </div>
+        <div class="form_container row">
+            <div class="form col-sm-12 col-md-12 col-lg-8">
+                <div class="left_part">
+                    <div class="form_title">Не знаете, с чего начать?</div>
+                    <div class="form_text">Оставьте Ваши данные и с Вами свяжется наш диетолог,
+                                            чтобы подобрать рацион специально для Вас
+                    </div>
+                    <span class="answer"></span>
+                    <form action="">
+                        <input type="text" placeholder="Ваше Имя" class="name">
+                        <input type="tel" placeholder="Ваш телефон" class="tel">
+                        <div class="submit_container">
+                            <button type="button" class="form_btn">подобрать рацион</button>
+                            <div class="submit_text">Нажимая на кнопку, Вы даете согласие на обработку <a href='#'>персональных данных</a>.</div>
+                        </div>
+                    </form>
+                </div>
+                <div class="right_part"></div>
+            </div>
+        </div>
+        <a href="#"><div class="up_container"><img src="images/btn-up.png" alt="..." class="up"></div></a>
+    </main>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
